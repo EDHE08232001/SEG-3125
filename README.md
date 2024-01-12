@@ -1,4 +1,4 @@
-# SEG-3125:
+# SEG-3125
 SEG 3125 Repository For All Labs
 
 Group Members: <br>
