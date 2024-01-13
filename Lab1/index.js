@@ -1,3 +1,3 @@
 function buttonDemo() {
-    window.alert("I am just a button!😂");
+    window.alert("Thank you for your cooperation!😂");
 }
