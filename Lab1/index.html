@@ -70,19 +70,27 @@
             <input type="text" id="textQuestion" name="textQuestion">
         </div>
 
-        <div class="single-choice-question text-color">
-            <p class="required" style="font-style: Helvetica;">How would you rate Steam's navigation ease?</p>
-            <input type="radio" id="easy" name="navigationEase" value="easy">
-            <label for="easy">Easy</label><br>
-            <input type="radio" id="moderate" name="navigationEase" value="moderate">
-            <label for="moderate">Moderate</label><br>
-            <input type="radio" id="difficult" name="navigationEase" value="difficult">
-            <label for="difficult">Difficult</label>
+        <div class="single-choice-question">
+            <p>How would you rate Steam's navigation ease?</p>
+            <label>
+                <input type="radio" id="easy" name="navigationEase" value="easy">
+                Easy
+            </label><br>
+            <label>
+                <input type="radio" id="moderate" name="navigationEase" value="moderate">
+                Moderate
+            </label><br>
+            <label>
+                <input type="radio" id="difficult" name="navigationEase" value="difficult">
+                Difficult
+            </label>
         </div>
+        
 
         <div class="dropdown-question">
             <label class="required" for="uiAspect">Which aspect of the UI is most important to you?</label>
             <select id="uiAspect" name="uiAspect">
+                <option value="slection">Please Select One</option>
                 <option value="design">Design</option>
                 <option value="usability">Usability</option>
                 <option value="performance">Performance</option>
@@ -118,9 +126,10 @@
         <div class="container-fluid">
             <footer class="py-3">
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item px-2y mx-3">Website Designed By:</li>
                     <li class="nav-item px-2y mx-3">Edward He</li>
                     <li class="nav-item px-2y mx-3">Yu-Chen Lee</li>
-                    <li class="nav-item px-2y mx-3">Eeshan Patel</li>
+                    <li class="nav-item px-2y mx-3">Eeshaan Patel</li>
                 </ul>
                 <p class="text-center" style="color: aliceblue;">© Group 7</p>
             </footer>
