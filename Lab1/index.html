@@ -64,12 +64,14 @@
 
         <div class="checkbox-question">
             <p>Which features of Steam do you frequently use? (Select all that apply)</p>
-            <input type="checkbox" id="store" name="feature" value="store">
-            <label for="store">Store</label><br>
-            <input type="checkbox" id="community" name="feature" value="community">
-            <label for="community">Community</label><br>
-            <input type="checkbox" id="library" name="feature" value="library">
-            <label for="library">Library</label>
+            <div class="checkbox-container">
+                <input type="checkbox" id="store" name="feature" value="store">
+                <label for="store">Store</label>
+                <input type="checkbox" id="community" name="feature" value="community">
+                <label for="community">Community</label>
+                <input type="checkbox" id="library" name="feature" value="library">
+                <label for="library">Library</label>
+            </div>
         </div>
 
         <div class="comments">
@@ -77,7 +79,7 @@
             <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
         </div>
 
-        <div class="submit-button">
+        <div class="submit-button" onclick="buttonDemo()">
             <button type="submit">Submit Survey</button>
         </div>
 
