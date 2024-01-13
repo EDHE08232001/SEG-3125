@@ -15,7 +15,7 @@
     <section id="introduction" class="container-fluid my-gradient-background">
         <div id="introduction-main">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5 px-3">
-                <div class="col-10 col-sm-8 col-lg-6">
+                <div class="col-12 col-sm-8 col-lg-6">
                     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -47,7 +47,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-12 col-lg-6">
                     <h1 class="display-5 lh-1 mb-3" style="color: antiquewhite;">
                         <a href="https://store.steampowered.com" style="color: inherit; text-decoration: none;">
                             Link to Steam
@@ -64,14 +64,14 @@
     </section>
 
     <!--Survey Main Body-->
-    <section id="survey-body" class="container-fluid my-gradient-background">
+    <section id="survey-body" class="container my-gradient-background py-4 px-3 survey-section">
         <div class="text-question">
-            <label for="textQuestion">What do you like most about Steam's interface?</label>
+            <label class="required" for="textQuestion">What do you like most about Steam's interface?</label>
             <input type="text" id="textQuestion" name="textQuestion">
         </div>
 
-        <div class="single-choice-question">
-            <p>How would you rate Steam's navigation ease?</p>
+        <div class="single-choice-question text-color">
+            <p class="required" style="font-style: Helvetica;">How would you rate Steam's navigation ease?</p>
             <input type="radio" id="easy" name="navigationEase" value="easy">
             <label for="easy">Easy</label><br>
             <input type="radio" id="moderate" name="navigationEase" value="moderate">
@@ -81,7 +81,7 @@
         </div>
 
         <div class="dropdown-question">
-            <label for="uiAspect">Which aspect of the UI is most important to you?</label>
+            <label class="required" for="uiAspect">Which aspect of the UI is most important to you?</label>
             <select id="uiAspect" name="uiAspect">
                 <option value="design">Design</option>
                 <option value="usability">Usability</option>
@@ -90,8 +90,8 @@
             </select>
         </div>
 
-        <div class="checkbox-question">
-            <p>Which features of Steam do you frequently use? (Select all that apply)</p>
+        <div class="checkbox-question ">
+            <p style="font-style: Helvetica;">Which features of Steam do you frequently use? (Select all that apply)</p>
             <div class="checkbox-container">
                 <input type="checkbox" id="store" name="feature" value="store">
                 <label for="store">Store</label>
