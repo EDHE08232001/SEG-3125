@@ -5,20 +5,12 @@ body {
 }
 
 .my-gradient-background {
-  background: linear-gradient(to bottom, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  background: linear-gradient(to bottom, #000000, #333333);
   /* Add other styles such as padding or margin as needed */
 }
 
 #footer ul.nav li.nav-item {
   color: white;
-}
-
-#survey-body {
-  max-width: auto;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f4f4f4;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #survey-body div {
@@ -49,7 +41,7 @@ body {
 
 #survey-body .submit-button button {
   display: block;
-  width: 100%;
+  margin: 0 auto;
   padding: 8px;
   background-color: #007bff;
   color: white;
@@ -82,7 +74,7 @@ body {
 #survey-body h1,
 #survey-body h2,
 #survey-body h3 {
-  
+
   /* White color for headings */
 }
 
@@ -97,13 +89,13 @@ body {
 }
 
 .required::after {
-  color :red;
+  color: red;
   content: ' *';
-  
+
 }
 
 .text-color {
-  color:yellow;
-  font-style:Helvetica;
+  color: yellow;
+  font-style: Helvetica;
 
 }
